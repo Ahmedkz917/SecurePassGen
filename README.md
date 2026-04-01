@@ -1,4 +1,4 @@
-# 🔐 SecurePassGen
+<img width="332" height="329" alt="SPG001" src="https://github.com/user-attachments/assets/e8eca139-3b56-4f53-94a1-acbc6241d662" /># 🔐 SecurePassGen
 
 > **Smart Passwords, Zero Repeats**
 
@@ -46,7 +46,12 @@ SecurePassGen is a lightweight and secure desktop application built with Lazarus
 
 ## 📸 Preview
 
-> *(Add screenshot here later)*
+> <img width="332" height="329" alt="image" src="https://github.com/user-attachments/assets/7166ec00-0fcb-46a3-8985-4e7d072c8458" />
+<img width="739" height="332" alt="image" src="https://github.com/user-attachments/assets/419e65dd-3d3e-4464-aeb8-a747d8755495" />
+<img width="332" height="329" alt="image" src="https://github.com/user-attachments/assets/9697464f-a5f7-4b47-a69f-0eaad0b8e72d" />
+
+
+
 
 ```
 [ Password Generator UI Screenshot ]

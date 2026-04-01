@@ -1,0 +1,212 @@
+object FormMain: TFormMain
+  Left = 504
+  Height = 290
+  Top = 288
+  Width = 724
+  BorderStyle = bsDialog
+  Caption = 'Secure Password Generator'
+  ClientHeight = 290
+  ClientWidth = 724
+  Color = clWhite
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -13
+  Font.Name = 'Segoe UI'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Position = poScreenCenter
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object BtnGenerate: TButton
+    Left = 32
+    Height = 25
+    Top = 223
+    Width = 248
+    Caption = 'Generate'
+    TabOrder = 1
+    OnClick = BtnGenerateClick
+  end
+  object MemoResult: TMemo
+    Left = 32
+    Height = 23
+    Top = 48
+    Width = 208
+    Lines.Strings = (
+      'MemoResult'
+    )
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object ChkUpper: TCheckBox
+    Left = 32
+    Height = 21
+    Top = 124
+    Width = 221
+    Caption = '     Include Uppercase Letters (A-Z)'
+    TabOrder = 7
+  end
+  object ChkLower: TCheckBox
+    Left = 32
+    Height = 21
+    Top = 148
+    Width = 225
+    Caption = '     Include Lowercase Letters (a-z)'#10
+    TabOrder = 8
+  end
+  object ChkNumbers: TCheckBox
+    Left = 32
+    Height = 21
+    Top = 172
+    Width = 168
+    Caption = '     Include Numbers (0-9)'
+    TabOrder = 9
+  end
+  object ChkSymbols: TCheckBox
+    Left = 32
+    Height = 21
+    Top = 196
+    Width = 168
+    Caption = '     Include Symbols (@-$)'
+    TabOrder = 10
+  end
+  object BtnCopy: TButton
+    Left = 240
+    Height = 23
+    Top = 48
+    Width = 40
+    Caption = 'Copy'
+    TabOrder = 2
+    OnClick = BtnCopyClick
+  end
+  object MemoHistory: TMemo
+    Left = 320
+    Height = 200
+    Top = 48
+    Width = 376
+    Lines.Strings = (
+      'MemoHistory'
+    )
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 11
+  end
+  object BtnExport: TButton
+    Left = 320
+    Height = 25
+    Top = 256
+    Width = 248
+    Caption = 'Export'
+    TabOrder = 5
+    OnClick = BtnExportClick
+  end
+  object TrackBarLength: TTrackBar
+    Left = 24
+    Height = 25
+    Top = 84
+    Width = 240
+    Frequency = 2
+    Max = 32
+    Min = 4
+    Position = 10
+    OnChange = TrackBarLengthChange
+    TabOrder = 12
+  end
+  object LblLength: TLabel
+    Left = 266
+    Height = 15
+    Top = 86
+    Width = 14
+    Caption = '10'
+    Font.CharSet = ANSI_CHARSET
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object LabelTitel: TLabel
+    Left = 27
+    Height = 42
+    Top = 3
+    Width = 267
+    Alignment = taCenter
+    Caption = 'Generate Strong && Smart Passwords,'#13#10'"Zero Repeats", Stay Secure.'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object BtnHide: TButton
+    Left = 621
+    Height = 25
+    Top = 256
+    Width = 75
+    Caption = 'Hide'
+    TabOrder = 0
+    OnClick = BtnHistoryClick
+  end
+  object BtnClose: TButton
+    Left = 32
+    Height = 25
+    Top = 256
+    Width = 75
+    Caption = 'Close'
+    TabOrder = 3
+    OnClick = BtnCloseClick
+  end
+  object BtnHistory: TButton
+    Left = 205
+    Height = 25
+    Top = 256
+    Width = 75
+    Caption = 'History'
+    TabOrder = 4
+    OnClick = BtnHistoryClick
+  end
+  object LabelTitel1: TLabel
+    Left = 564
+    Height = 21
+    Top = 24
+    Width = 127
+    Alignment = taCenter
+    Caption = 'Password History'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Shape1: TShape
+    Left = 32
+    Height = 26
+    Top = 225
+    Width = 248
+    Brush.Color = 8421631
+    Pen.Color = clNone
+  end
+  object BtnAbout: TButton
+    Left = 120
+    Height = 25
+    Top = 256
+    Width = 75
+    Caption = 'About'
+    TabOrder = 13
+    OnClick = BtnAboutClick
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 264
+    Top = 168
+  end
+  object TimerResize: TTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = TimerResizeTimer
+    Left = 264
+    Top = 112
+  end
+end

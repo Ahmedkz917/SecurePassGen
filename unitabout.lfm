@@ -1,0 +1,59 @@
+object FormAbout: TFormAbout
+  Left = 496
+  Height = 280
+  Top = 278
+  Width = 300
+  BorderStyle = bsDialog
+  Caption = 'About !'
+  ClientHeight = 280
+  ClientWidth = 300
+  Color = clWhite
+  Position = poScreenCenter
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 32
+    Height = 42
+    Top = 1
+    Width = 228
+    Alignment = taCenter
+    Caption = 'Secure Password Generator'#13#10'Smart Passwords, Zero Repeats'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 180
+    Top = 56
+    Width = 272
+    Caption = 'Version: 2.3.0'#13#10'Developer: Ahmed Kz © 2026'#13#10#13#10'SecurePassGen is a lightweight password generator '#13#10'that creates strong, unique passwords '#13#10'with no repeated characters.'#13#10#13#10'Features:'#13#10'• Custom character sets'#13#10'• Adjustable length'#13#10'• Auto clipboard copy'#13#10'• History logging    '
+  end
+  object Button1: TButton
+    Left = 112
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Ok'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Bevel1: TBevel
+    Left = 0
+    Height = 10
+    Top = 48
+    Width = 300
+    Shape = bsTopLine
+  end
+  object Bevel2: TBevel
+    Left = 0
+    Height = 10
+    Top = 240
+    Width = 300
+    Shape = bsTopLine
+  end
+end

@@ -1,4 +1,4 @@
-🔐 SecurePassGen
+# 🔐 SecurePassGen
 
 > **Smart Passwords, Zero Repeats**
 

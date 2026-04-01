@@ -38,7 +38,7 @@ SecurePassGen is a lightweight and secure desktop application built with Lazarus
 
 * 🌙 **Modern UI**
 
-  * Dark mode
+  * Light mode
   * Smooth animations
   * Centered responsive layout
 

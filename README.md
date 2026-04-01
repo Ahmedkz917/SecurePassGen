@@ -1,4 +1,4 @@
-<img width="332" height="329" alt="SPG001" src="https://github.com/user-attachments/assets/e8eca139-3b56-4f53-94a1-acbc6241d662" /># 🔐 SecurePassGen
+🔐 SecurePassGen
 
 > **Smart Passwords, Zero Repeats**
 

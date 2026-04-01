@@ -102,7 +102,7 @@ Run → Run
 
 ## 👨‍💻 Author
 
-**Ahmed Kz**
+**Ahmed Kz <KoaSoft>**
 
 ---
 

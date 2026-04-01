@@ -41,6 +41,7 @@ SecurePassGen is a lightweight and secure desktop application built with Lazarus
   * Light mode
   * Smooth animations
   * Centered responsive layout
+  * Light and portable version
 
 ---
 
@@ -64,6 +65,7 @@ SecurePassGen is a lightweight and secure desktop application built with Lazarus
 * Windows OS
 * Lazarus IDE
 * Free Pascal Compiler
+* Compatible with Delphi
 
 ---
 
@@ -133,5 +135,6 @@ If you like this project:
 * 🚫 Exclude similar characters (O, 0, l, I)
 * 🌐 Multi-platform support
 * 🔐 Encrypted password storage
+* 🔑 Supports up to 32 characters
 
 ---
